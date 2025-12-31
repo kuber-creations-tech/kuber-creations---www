@@ -4,6 +4,12 @@ const BUSINESS_MOBILE = "+917490822732";
 const CONTACT_BTN = "https://wa.me/" + BUSINESS_MOBILE + "?text=I%20am%20interested%20in%20CNC%20Wood%20works.";
 const QUOTE_BTN = "https://wa.me/" + BUSINESS_MOBILE + "?text=Please%20give%20me%20a%20quote%20for%20my%20CNC%20work.";
 const BROCHURE_BTN = "https://wa.me/" + BUSINESS_MOBILE + "?text=Please%20share%20me%20your%20Brochure.";
+
+export const metadata = {
+  title: 'Kuber Creations | Luxury Woodwork, Engineered with CNC Perfection',
+  description: 'Kuber Creations specializes in premium CNC job work for wood, delivering precision-crafted solutions for architecture and interior design.',
+}
+
 export default function Page() {
     return (
 

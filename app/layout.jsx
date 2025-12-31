@@ -18,7 +18,6 @@ export default function RootLayout({ children }) {
                     gtag('config', 'G-0N4QKTX6L7');
                 `}
                 </script>
-                <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
 
             <body>

@@ -13,7 +13,7 @@ export default function Page() {
                 <header className="absolute inset-x-0 top-0 z-50 bg-white">
                     <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
                         <div className="flex lg:flex-1">
-                            <a href="#" className="-m-1.5 p-1.5">
+                            <a href="/" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Kuber Creations</span>
                                 <img src="/BrandLogo.png" alt="" className="h-16 w-auto" />
                             </a>
@@ -41,7 +41,7 @@ export default function Page() {
                             <div tabIndex="0" className="fixed inset-0 focus:outline-none">
                                 <el-dialog-panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                                     <div className="flex items-center justify-between">
-                                        <a href="#" className="-m-1.5 p-1.5">
+                                        <a href="/" className="-m-1.5 p-1.5">
                                             <span className="sr-only">Kuber Creations</span>
                                             <img src="/BrandLogo.png" alt="" className="h-16 w-auto" />
                                         </a>
@@ -172,7 +172,7 @@ export default function Page() {
                                         Expert CNC routing through hardwoods, softwoods, MDF, plywood, and laminates for flawless results every time.
                                     </p>
                                 </div>
-                                <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                                <div className="@container relative min-h-56 md:min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
                                     <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden bg-gray-900 shadow-2xl">
                                         <img src="https://images.unsplash.com/photo-1684564577719-1e9944866a45?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
                                     </div>
@@ -229,7 +229,7 @@ export default function Page() {
                                         In-house designers and programmers collaborate closely to refine every project from concept to completion.
                                     </p>
                                 </div>
-                                <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                                <div className="@container relative min-h-56 md:min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
                                     <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden bg-gray-900 shadow-2xl">
                                         <img src="https://images.unsplash.com/photo-1619759247378-6a73e3ad45f1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
                                     </div>
@@ -269,9 +269,13 @@ export default function Page() {
                                 <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                                     <div className="relative pl-9">
                                         <dt className="inline font-semibold text-gray-900">
-                                            <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600">
+                                            {/* <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600">
                                                 <path d="M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z" clipRule="evenodd" fillRule="evenodd" />
+                                            </svg> */}
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="absolute top-0.5 left-1 size-6 text-indigo-600">
+                                                <path d="M6 3a3 3 0 0 0-3 3v2.25a3 3 0 0 0 3 3h2.25a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6ZM15.75 3a3 3 0 0 0-3 3v2.25a3 3 0 0 0 3 3H18a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3h-2.25ZM6 12.75a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h2.25a3 3 0 0 0 3-3v-2.25a3 3 0 0 0-3-3H6ZM17.625 13.5a.75.75 0 0 0-1.5 0v2.625H13.5a.75.75 0 0 0 0 1.5h2.625v2.625a.75.75 0 0 0 1.5 0v-2.625h2.625a.75.75 0 0 0 0-1.5h-2.625V13.5Z" />
                                             </svg>
+
                                             Precision & Quality :&nbsp;
                                         </dt>
                                         <dd className="inline">
@@ -281,9 +285,14 @@ export default function Page() {
                                     </div>
                                     <div className="relative pl-9">
                                         <dt className="inline font-semibold text-gray-900">
-                                            <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600">
+                                            {/* <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600">
                                                 <path d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z" clipRule="evenodd" fillRule="evenodd" />
+                                            </svg> */}
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="absolute top-0.5 left-1 size-6 text-indigo-600">
+                                                <path d="M19.006 3.705a.75.75 0 1 0-.512-1.41L6 6.838V3a.75.75 0 0 0-.75-.75h-1.5A.75.75 0 0 0 3 3v4.93l-1.006.365a.75.75 0 0 0 .512 1.41l16.5-6Z" />
+                                                <path fillRule="evenodd" d="M3.019 11.114 18 5.667v3.421l4.006 1.457a.75.75 0 1 1-.512 1.41l-.494-.18v8.475h.75a.75.75 0 0 1 0 1.5H2.25a.75.75 0 0 1 0-1.5H3v-9.129l.019-.007ZM18 20.25v-9.566l1.5.546v9.02H18Zm-9-6a.75.75 0 0 0-.75.75v4.5c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75H9Z" clipRule="evenodd" />
                                             </svg>
+
                                             Enterprise-Grade Equipment :&nbsp;
                                         </dt>
                                         <dd className="inline">
@@ -292,9 +301,9 @@ export default function Page() {
                                     </div>
                                     <div className="relative pl-9">
                                         <dt className="inline font-semibold text-gray-900">
-                                            <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600">
-                                                <path d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z" />
-                                                <path d="M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z" clipRule="evenodd" fillRule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="absolute top-0.5 left-1 size-6 text-indigo-600">
+                                                <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z" />
+                                                <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z" clipRule="evenodd" />
                                             </svg>
                                             Competitive Pricing :&nbsp;
                                         </dt>

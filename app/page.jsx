@@ -8,6 +8,15 @@ const BROCHURE_BTN = "https://wa.me/" + BUSINESS_MOBILE + "?text=Please%20share%
 export const metadata = {
   title: 'Kuber Creations | Luxury Woodwork, Engineered with CNC Perfection',
   description: 'Kuber Creations specializes in premium CNC job work for wood, delivering precision-crafted solutions for architecture and interior design.',
+  url: 'https://kubercreations.com',
+    siteName: 'Kuber Creations',
+    images: [
+      {
+        url: 'https://kubercreations.com/opengraph-image.jpg', // Must be an absolute URL
+        width: 800,
+        height: 600,
+      }
+    ],
 }
 
 export default function Page() {

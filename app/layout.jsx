@@ -1,10 +1,4 @@
 import '../styles/globals.css';
-export const metadata = {
-    title: {
-        template: '%s | Netlify',
-        default: 'Netlify Starter'
-    }
-};
 
 export default function RootLayout({ children }) {
     return (

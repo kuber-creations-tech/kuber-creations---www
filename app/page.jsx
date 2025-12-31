@@ -14,7 +14,7 @@ export default function Page() {
                     <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
                         <div className="flex lg:flex-1">
                             <a href="#" className="-m-1.5 p-1.5">
-                                <span className="sr-only">Your Company </span>
+                                <span className="sr-only">Kuber Creations</span>
                                 <img src="/BrandLogo.png" alt="" className="h-16 w-auto" />
                             </a>
                         </div>
@@ -42,8 +42,8 @@ export default function Page() {
                                 <el-dialog-panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                                     <div className="flex items-center justify-between">
                                         <a href="#" className="-m-1.5 p-1.5">
-                                            <span className="sr-only">Your Company</span>
-                                            <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="" className="h-8 w-auto" />
+                                            <span className="sr-only">Kuber Creations</span>
+                                            <img src="/BrandLogo.png" alt="" className="h-16 w-auto" />
                                         </a>
                                         <button type="button" command="close" commandfor="mobile-menu" className="-m-2.5 rounded-md p-2.5 text-gray-700">
                                             <span className="sr-only">Close menu</span>
@@ -61,7 +61,7 @@ export default function Page() {
                                                 {/* <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Company</a> */}
                                             </div>
                                             <div className="py-6">
-                                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
+                                                <a href={CONTACT_BTN} className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact us</a>
                                             </div>
                                         </div>
                                     </div>
@@ -87,15 +87,15 @@ export default function Page() {
                             <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">Premium CNC Job Work for Wood
                             </h1>
                             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                            From Concept to Creation — Crafted with Unmatched Precision
+                                From Concept to Creation — Crafted with Unmatched Precision
                             </p>
                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                 <a href={QUOTE_BTN} className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                                     Get a Quote
-                                    </a>
+                                </a>
                                 <a href={BROCHURE_BTN} className="text-sm/6 font-semibold text-gray-900">
-                                Download Brochure &nbsp;
-                                <span aria-hidden="true">→</span></a>
+                                    Download Brochure &nbsp;
+                                    <span aria-hidden="true">→</span></a>
                             </div>
                         </div>
                     </div>
@@ -114,26 +114,26 @@ export default function Page() {
                     <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
                         <div className="mx-auto flex max-w-xs flex-col gap-y-4">
                             <dt className="text-base/7 text-gray-600">
-                            Expertise
+                                Expertise
                             </dt>
                             <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                            35 Years
+                                35 Years
                             </dd>
                         </div>
                         <div className="mx-auto flex max-w-xs flex-col gap-y-4">
                             <dt className="text-base/7 text-gray-600">
-                            Sq. Ft. Work Done.
+                                Sq. Ft. Work Done.
                             </dt>
                             <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                            2 lakhs+
+                                2 lakhs+
                             </dd>
                         </div>
                         <div className="mx-auto flex max-w-xs flex-col gap-y-4">
                             <dt className="text-base/7 text-gray-600">
-                            Unique Designs
+                                Unique Designs
                             </dt>
                             <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                            10,000+
+                                10,000+
                             </dd>
                         </div>
                     </dl>
@@ -155,10 +155,10 @@ export default function Page() {
             <div id="services" className="bg-gray-50 py-24 sm:py-32">
                 <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                     <h2 className="text-center text-base/7 font-semibold text-indigo-600">
-                    What We Offer
+                        What We Offer
                     </h2>
                     <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl">
-                    Our CNC Job Work Services
+                        Our CNC Job Work Services
                     </p>
                     <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
                         <div className="relative lg:row-span-2">
@@ -166,15 +166,15 @@ export default function Page() {
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                                     <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                                    CNC cutting for different materials
+                                        CNC cutting for different materials
                                     </p>
                                     <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                                    Expert CNC routing through hardwoods, softwoods, MDF, plywood, and laminates for flawless results every time.
+                                        Expert CNC routing through hardwoods, softwoods, MDF, plywood, and laminates for flawless results every time.
                                     </p>
                                 </div>
                                 <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
-                                    <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-                                        <img src="https://images.unsplash.com/photo-1426927308491-6380b6a9936f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
+                                    <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden bg-gray-900 shadow-2xl">
+                                        <img src="https://images.unsplash.com/photo-1684564577719-1e9944866a45?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
                                     </div>
                                 </div>
                             </div>
@@ -185,14 +185,16 @@ export default function Page() {
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                                     <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                                    Custom design execution
+                                        Custom design execution
                                     </p>
                                     <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                                    From sketch to showroom: We execute bespoke designs with pixel-perfect CNC translation and hand-refined details.
+                                        From sketch to showroom: We execute bespoke designs with pixel-perfect CNC translation and hand-refined details.
                                     </p>
                                 </div>
-                                <div className="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
-                                    <img src="https://images.unsplash.com/photo-1426927308491-6380b6a9936f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="w-full max-lg:max-w-xs" />
+                                <div className="@container relative min-h-56 w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                                    <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden bg-gray-900 shadow-2xl">
+                                        <img src="https://images.unsplash.com/photo-1560846389-e4e6d764cd61?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 max-lg:rounded-t-4xl"></div>
@@ -202,14 +204,16 @@ export default function Page() {
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                                     <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                                    Precision manufacturing details
+                                        Precision manufacturing details
                                     </p>
                                     <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                                    Achieve flawless joints, inlays, and finishes with our state-of-the-art CNC technology and skilled craftsmanship.
+                                        Achieve flawless joints, inlays, and finishes with our state-of-the-art CNC technology and skilled craftsmanship.
                                     </p>
                                 </div>
-                                <div className="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
-                                    <img src="https://images.unsplash.com/photo-1426927308491-6380b6a9936f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="w-full max-lg:max-w-xs" />
+                                <div className="@container relative min-h-56 w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                                    <div className="absolute inset-x-10 top-4 bottom-0 overflow-hidden bg-gray-900 shadow-2xl">
+                                        <img src="https://images.unsplash.com/photo-1595844730289-b248c919d6f9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5"></div>
@@ -219,15 +223,15 @@ export default function Page() {
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
                                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                                     <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                                    Experienced Team
+                                        Experienced Team
                                     </p>
                                     <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                                    In-house designers and programmers collaborate closely to refine every project from concept to completion.
+                                        In-house designers and programmers collaborate closely to refine every project from concept to completion.
                                     </p>
                                 </div>
                                 <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
-                                    <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-                                        <img src="https://images.unsplash.com/photo-1426927308491-6380b6a9936f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
+                                    <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden bg-gray-900 shadow-2xl">
+                                        <img src="https://images.unsplash.com/photo-1619759247378-6a73e3ad45f1?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="size-full object-cover object-top" />
                                     </div>
                                 </div>
                             </div>
@@ -254,13 +258,13 @@ export default function Page() {
                         <div className="lg:pt-4 lg:pr-8">
                             <div className="lg:max-w-lg">
                                 <h2 className="text-base/7 font-semibold text-indigo-600">
-                                Architecture & Interior Design
+                                    Architecture & Interior Design
                                 </h2>
                                 <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-                                A Modern Furnishing.
+                                    A Modern Furnishing.
                                 </p>
                                 <p className="mt-6 text-lg/8 text-gray-700">
-                                Our precision-driven CNC machines translate creativity into reality with millimeter-perfect detail and premium-grade finishes.
+                                    Our precision-driven CNC machines translate creativity into reality with millimeter-perfect detail and premium-grade finishes.
                                 </p>
                                 <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                                     <div className="relative pl-9">
@@ -271,8 +275,8 @@ export default function Page() {
                                             Precision & Quality :&nbsp;
                                         </dt>
                                         <dd className="inline">
-                                        {/* Description for Precision & Quality */}
-                                        With advanced CNC technology and expert craftsmanship, we deliver woodwork that meets the highest standard of precision and finish.
+                                            {/* Description for Precision & Quality */}
+                                            With advanced CNC technology and expert craftsmanship, we deliver woodwork that meets the highest standard of precision and finish.
                                         </dd>
                                     </div>
                                     <div className="relative pl-9">
@@ -312,7 +316,7 @@ export default function Page() {
 
 
             <footer>
-                <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8 flex justify-between">
+                <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8 flex flex-col md:flex-row justify-between">
                     <p className="text-center text-sm/6 text-gray-500">&copy; 2026 Kuber Creations, Inc. All rights reserved.</p>
                     <p className="text-center text-sm/6 text-gray-500"> Design and Developed by HoneyHexa.</p>
                 </div>
